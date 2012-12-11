@@ -1,8 +1,8 @@
 require 'csv'
-require_relative 'librarystatistics/category.rb'
-require_relative 'librarystatistics/library.rb'
-require_relative 'librarystatistics/csvreader.rb'
-require_relative 'librarystatistics/categorybuilder.rb'
+require_relative 'lib_stats/category.rb'
+require_relative 'lib_stats/library.rb'
+require_relative 'lib_stats/csvreader.rb'
+require_relative 'lib_stats/categorybuilder.rb'
 
 class LibraryApp
 	attr_accessor :name, :category_array, :library, :loser_array

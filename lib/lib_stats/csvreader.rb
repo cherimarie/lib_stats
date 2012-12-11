@@ -1,5 +1,3 @@
-
-
 class CsvReader
 	attr_accessor :categories, :quantity, :checkouts
 
