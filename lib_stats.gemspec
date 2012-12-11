@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Cheri Allen"]
   s.email       = 'cherimarie@gmail.com'
   s.homepage    = 'http://rubygems.org/gems/lib_stats'
-  s.files       = ["lib/libraryapp.rb"]
+  s.files       = ["lib/lib_stats.rb"]
   s.executables << ''
 
   s.add_runtime_dependency "require_relative"
