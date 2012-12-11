@@ -1,4 +1,4 @@
-require './lib/libraryapp.rb'
+require './lib/lib_stats.rb'
 
 describe Library do
 
@@ -24,7 +24,6 @@ describe Category do
 	end
 
 	it "should be able to tell checkout percentage" do
-		puts "#{@quantity}"
 		@sociology.percent_of_checkouts.should == 2
 	end
 
@@ -60,10 +59,10 @@ describe CategoryBuilder do
 
 end
 
-describe LibraryApp do
+describe Lib_Stats do
 
 	before do
-		@app_test = LibraryApp.new(name: 'app_test', file: 'LibraryStatisticsTestData.csv')
+		@app_test = Lib_Stats.new(name: 'app_test', file: 'LibraryStatisticsTestData.csv')
 	end
 
 	it "should configure library totals" do

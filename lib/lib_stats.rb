@@ -4,7 +4,7 @@ require_relative 'lib_stats/library.rb'
 require_relative 'lib_stats/csvreader.rb'
 require_relative 'lib_stats/categorybuilder.rb'
 
-class LibraryApp
+class Lib_Stats
 	attr_accessor :name, :category_array, :library, :loser_array
 
 	def initialize(args = {})
@@ -75,7 +75,6 @@ class LibraryApp
 				output += "#{winner.name}"
 			end
 
-		puts output
 		return output
 
 
